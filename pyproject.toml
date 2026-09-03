@@ -1,0 +1,11 @@
+[project]
+name = "brain-tumor-classification"
+version = "1.0.0"
+requires-python = "==3.12.*"
+dependencies = [
+    "streamlit==1.63.0",
+    "tensorflow==2.21.0",
+    "numpy",
+    "pillow",
+    "matplotlib"
+]
