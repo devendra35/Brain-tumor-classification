@@ -314,4 +314,6 @@ If you find this project interesting, consider giving the repository a ⭐ on Gi
 
 ---
 
-**Built with Python, TensorFlow, Keras, and Streamlit.**
+**Built with Python, TensorFlow, Keras, and Streamlit.** 
+##📜 License
+This project is licensed under the MIT License.
