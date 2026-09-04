@@ -315,5 +315,5 @@ If you find this project interesting, consider giving the repository a ⭐ on Gi
 ---
 
 **Built with Python, TensorFlow, Keras, and Streamlit.** 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License.
