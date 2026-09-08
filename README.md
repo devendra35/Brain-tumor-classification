@@ -1,4 +1,4 @@
-# 🧠 Brain Tumor Classification & Localization
+#  Brain Tumor Classification & Localization
 
 An AI-powered **brain MRI analysis application** that classifies MRI scans into four categories and localizes tumor regions using deep learning.
 
@@ -41,19 +41,19 @@ The application displays:
 
 The classification model uses `300 × 300` input images, while the segmentation model uses `128 × 128` inputs.
 
-## ✨ Features
+##  Features
 
-* 🧠 Deep learning-based MRI classification
-* 🔬 Four-class tumor classification
-* 🎯 Tumor region localization
-* 🖼️ MRI image upload
-* 📊 Class probability visualization
-* 🎚️ Adjustable segmentation threshold
-* 📈 Prediction confidence
-* 🔍 Original, mask, and overlay visualization
-* ⚡ Interactive Streamlit interface
+*  Deep learning-based MRI classification
+*  Four-class tumor classification
+*  Tumor region localization
+*  MRI image upload
+*  Class probability visualization
+*  Adjustable segmentation threshold
+*  Prediction confidence
+*  Original, mask, and overlay visualization
+*  Interactive Streamlit interface
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
                  Brain MRI Image
@@ -110,7 +110,7 @@ Used for tumor segmentation and localization.
 
 The trained model files are stored in the `models/` directory.
 
-## 📊 Model Performance
+##  Model Performance
 
 | Task           | Metric     |     Result |
 | -------------- | ---------- | ---------: |
@@ -120,7 +120,7 @@ The trained model files are stored in the `models/` directory.
 
 These are the performance values currently displayed by the deployed application.
 
-## 🔍 Application Workflow
+##  Application Workflow
 
 1. Upload a brain MRI image in JPG, JPEG, or PNG format.
 2. The image is converted to RGB.
@@ -205,7 +205,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## ▶️ Run the Application
+##  Run the Application
 
 Start the Streamlit application:
 
@@ -215,7 +215,7 @@ streamlit run app.py
 
 The application will open in your browser.
 
-## 🖼️ Using the App
+##  Using the App
 
 ### Upload an MRI
 
@@ -280,16 +280,7 @@ The main goals of this project are to:
 * Build an accessible AI-assisted interface
 * Demonstrate an end-to-end computer vision workflow
 
-## 🔮 Future Improvements
 
-* Improve classification performance
-* Improve tumor segmentation accuracy
-* Add Grad-CAM / explainable AI
-* Add model confidence analysis
-* Add more robust image preprocessing
-* Evaluate on additional datasets
-* Add more comprehensive validation
-* Improve visualization and reporting
 
 ## ⚠️ Disclaimer
 
